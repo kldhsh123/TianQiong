@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tianqiong-lang"
+version = "0.1.0"
+description = "天穹——面向全场景的自主创新编程语言（语言艺术实验项目）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+keywords = ["天穹", "tianqiong", "中文编程", "语言艺术"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Natural Language :: Chinese (Simplified)",
+    "Topic :: Artistic Software",
+]
